@@ -1,0 +1,22 @@
+[project]
+name = "pracuj-autocv"
+version = "0.1.0"
+description = "A Python application to automate job applications on pracuj.pl."
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic",
+    "selenium",
+    "python-dotenv",
+    "PyPDF2",
+    "browser-use",
+    "questionary",
+    "requests",
+    "beautifulsoup4",
+    "fake-useragent",
+]
+keywords = ["automation", "job-application", "selenium", "pracuj.pl"]
+
+[project.urls]
+"Repository" = "https://github.com/pavel/pracuj_autocv"
