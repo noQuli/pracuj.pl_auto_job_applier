@@ -38,13 +38,11 @@ class PageNavigator:
 
         except requests.exceptions.RequestException as req_err:
             logger.error(
-                f"Request error for {self.base_url}: {req_err}", exc_debug=True
-            )
+                f"Request error for {self.base_url}: {req_err}")
             return 1
         except Exception as e:
             logger.error(
-                f"An unexpected error occurred for {self.base_url}: {e}", exc_debug=True
-            )
+                f"An unexpected error occurred for {self.base_url}: {e}")
             return 1
 
     def generate_all_page_urls(self) -> list[str]:
