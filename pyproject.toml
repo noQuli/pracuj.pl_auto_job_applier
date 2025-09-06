@@ -18,5 +18,3 @@ dependencies = [
 ]
 keywords = ["automation", "job-application", "selenium", "pracuj.pl"]
 
-[project.urls]
-"Repository" = "https://github.com/pavel/pracuj_autocv"
